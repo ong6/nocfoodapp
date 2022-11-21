@@ -29,8 +29,10 @@ export function Footer() {
             <div className="flex items-center text-gray-900">
               <Logomark className="h-10 w-10 flex-none fill-cyan-500" />
               <div className="ml-4">
-                <p className="text-base font-semibold">NOCFOOD</p>
-                <p className="mt-1 text-sm">Find your favorite food</p>
+                <p className="text-base font-semibold">Omnom</p>
+                <p className="mt-1 text-sm">
+                  Food can be organic in more ways than one!
+                </p>
               </div>
             </div>
             <nav className="mt-11 flex gap-8">

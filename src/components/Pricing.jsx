@@ -26,7 +26,7 @@ const plans = [
     logomarkClassName: 'fill-gray-300',
   },
   {
-    name: 'Investor',
+    name: 'Foodie',
     featured: false,
     price: { Monthly: '$7', Annually: '$70' },
     description:
@@ -204,7 +204,7 @@ export function Pricing() {
             id="pricing-title"
             className="text-3xl font-medium tracking-tight text-gray-900"
           >
-            Flat pricing, no management fees.
+            Your social media app
           </h2>
           <p className="mt-2 text-lg text-gray-600">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum

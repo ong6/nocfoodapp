@@ -199,7 +199,7 @@ export function SecondaryFeatures() {
           <p className="mt-2 text-lg text-gray-600">
             With typical Social media apps, you have to think of things to post.
             <br />
-            With NOCFOOD, its just food, food and food.
+            With Omnom, its just food, food and food.
           </p>
         </div>
         <ul

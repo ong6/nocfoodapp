@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NOC Food</title>
+        <title>Omnom</title>
         <meta
           name="description"
-          content="The social media platform for food!"
+          content="Food can be organic in more ways than one!"
         />
       </Head>
       <Header />

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '@/images/logo.svg'
+import logo from '@/images/logo.png'
 
 export function Logomark(props) {
   return <Image src={logo} alt="logo" height={50} />

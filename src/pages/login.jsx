@@ -9,7 +9,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Sign In - NOCFOOD</title>
+        <title>Sign In - Omnom</title>
       </Head>
       <AuthLayout
         title="Sign in to account"

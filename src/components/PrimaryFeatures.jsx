@@ -24,23 +24,20 @@ const MotionAppScreenBody = motion(AppScreen.Body)
 
 const features = [
   {
-    name: 'Connect with friends and share your food experiences',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci asperiores dicta, voluptatum assumenda accusamus possimus praesentium tempore rem facere cupiditate.',
+    name: 'Post your food in fun and interactive ways',
+    description: '',
     icon: DeviceUserIcon,
     screen: InviteScreen,
   },
   {
-    name: 'Make a post every meal',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptatibus sapiente quia inventore id commodi odio. Non quae molestiae ut mollitia eveniet? Eos dolorem asperiores nostrum iusto distinctio ipsum at.',
+    name: 'Discover what your friends are eating',
+    description: '',
     icon: DeviceNotificationIcon,
     screen: StocksScreen,
   },
   {
-    name: 'Follow the trend',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque eligendi doloremque dolorem cum temporibus magnam, libero esse consectetur voluptatem et enim optio. Sequi, mollitia!',
+    name: 'View restaurants at different angles',
+    description: '',
     icon: DeviceTouchIcon,
     screen: InvestScreen,
   },
@@ -400,9 +397,9 @@ function FeaturesDesktop() {
                 initial={{ borderRadius: 16 }}
               />
             )}
-            <div className="relative z-10 p-8">
+            <div className="relative z-10 flex flex-row items-center space-x-4 p-8 align-middle">
               <feature.icon className="h-8 w-8" />
-              <h3 className="mt-6 text-lg font-semibold text-white">
+              <h3 className="text-xl font-semibold text-white">
                 <Tab className="text-left [&:not(:focus-visible)]:focus:outline-none">
                   <span className="absolute inset-0 rounded-2xl" />
                   {feature.name}
@@ -503,7 +500,7 @@ function FeaturesMobile() {
               </PhoneFrame>
               <div className="absolute inset-x-0 bottom-0 bg-gray-800/95 p-6 backdrop-blur sm:p-10">
                 <feature.icon className="h-8 w-8" />
-                <h3 className="mt-6 text-sm font-semibold text-white sm:text-lg">
+                <h3 className="mt-6 text-lg font-semibold text-white sm:text-lg">
                   {feature.name}
                 </h3>
                 <p className="mt-2 text-sm text-gray-400">
@@ -544,19 +541,19 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for investing all your money"
-      className="bg-gray-900 py-20 sm:py-32"
+      className="flex flex-col items-center bg-gray-900 py-20 align-middle sm:py-32"
     >
+      <h2 className="text-3xl font-medium tracking-tight text-white">
+        Redefining The Restaurant Experience
+      </h2>
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="text-3xl font-medium tracking-tight text-white">
-            REDEFINING THE RESTAURANT EXPERIENCE.
-          </h2>
-          <p className="mt-2 text-lg text-gray-400">
+          {/* <p className="mt-2 text-lg text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
             molestias optio, ut iste similique molestiae, voluptatibus explicabo
             repellat veritatis tempore maxime voluptatem vitae ipsam commodi
             totam, adipisci corporis et tenetur.
-          </p>
+          </p> */}
         </div>
       </Container>
       <div className="mt-16 md:hidden">

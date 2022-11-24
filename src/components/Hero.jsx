@@ -345,8 +345,8 @@ export function Hero() {
             </h1>
             <p className="mt-6 text-lg text-gray-600">
               Share your food adventures, build a community and earn rewards.
-              Our food app helps you find and share food places with your
-              friends and the community.
+              Omnom collects organic food reviews from everyday people to
+              streamline your decision-making process.
             </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
@@ -377,12 +377,9 @@ export function Hero() {
             >
               {[
                 ['Wired', logoWired],
-                ['Wired', logoWired],
-                ['Wired', logoWired],
-                ['Wired', logoWired],
                 // ['Forbes', logoForbes],
-                // ['TechCrunch', logoTechcrunch],
-                // ['CNN', logoCnn, 'hidden xl:block'],
+                ['TechCrunch', logoTechcrunch],
+                ['CNN', logoCnn, 'hidden xl:block'],
                 // ['BBC', logoBbc],
                 // ['CBS', logoCbs],
                 // ['Fast Company', logoFastCompany],

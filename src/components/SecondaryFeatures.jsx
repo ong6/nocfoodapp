@@ -17,18 +17,18 @@ const features = [
   },
   {
     name: 'Fast and simple choices',
-    description: 'Find an ideal match with food places within seconds!',
+    description: 'Find an ideal match within seconds',
     icon: DeviceClockIcon,
   },
   {
     name: 'Find deals and coupons',
-    description: 'Find the best deals and discounts for food with our app',
+    description: 'Find the best deals and discounts for food',
     icon: DeviceListIcon,
   },
   {
     name: 'Encrypted and anonymized',
     description:
-      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden.',
+      'Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden',
     icon: DeviceLockIcon,
   },
   {
@@ -193,13 +193,13 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
-          <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Now is the time to join the food hype
+          <h2 className="font- text-3xl font-medium capitalize tracking-tight text-gray-900">
+            join the next food hype now!
           </h2>
           <p className="mt-2 text-lg text-gray-600">
             With typical Social media apps, you have to think of things to post.
             <br />
-            With Omnom, its just food, food and food.
+            With Omnom, its just food, food and more food.
           </p>
         </div>
         <ul

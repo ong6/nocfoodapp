@@ -8,7 +8,12 @@ export function Logomark(props) {
 export function Logo(props) {
   return (
     <div className="">
-      <Image src={logo} alt="logo" height={100} />
+      <Image
+        src={logo}
+        alt="logo"
+        height={100}
+        className="hover:rotate-45 hover:transition-all"
+      />
     </div>
   )
 }
